@@ -7,8 +7,8 @@ body{
     background-color: rgb(177, 166, 228);
     display:flex;
     justify-content: center;
+    margin-bottom:0px;
 }
-
 
 .left{
     display: flex;
@@ -33,13 +33,6 @@ body{
 }
 
 .hero-right{
-    /*max-width: 60%;
-    align-self: stretch;
-    flex: 1;
-    border-radius: 8px;
-    background-size: cover;
-    background-image: url(https://manuas.com/cdn/shop/products/polynesian-print-fabric-dobby-cotton-3198-web_grande.png?v=1597790265);
-    margin: 25px;*/
     align-self: stretch;
     border-radius: 8px;
     color: white;
@@ -48,6 +41,34 @@ body{
     background-size: cover;
     margin-left:90px;
     
+}
+
+.items img{
+    width: 90px;
+    height: auto;
+}
+
+.items{
+    max-width: 200px;
+}
+
+.section-two h2{
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin: 20px;
+    padding: 50px;
+}
+
+.section-two {
+    background-color: beige;
 }
 
 
