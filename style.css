@@ -90,5 +90,24 @@ body{
     text-align: center;
 }
 
+.section-four{
+    padding: 100px 40px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.container-card{
+    background-color: lightblue;
+    padding: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+
+}
+
+
+
 
 
