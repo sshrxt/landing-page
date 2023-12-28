@@ -1,0 +1,15 @@
+.header{
+    background-color: teal;
+    margin: 0px;
+    padding: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    display:flex; 
+    gap: 10px;  
+}
+
