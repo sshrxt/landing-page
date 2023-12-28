@@ -40,6 +40,7 @@ body{
     padding: 115px;
     background-size: cover;
     margin-left:90px;
+    background-image: url(leap//.gif);
     
 }
 
@@ -63,12 +64,30 @@ body{
     display: flex;
     justify-content: center;
     gap: 75px;
-    margin: 20px;
     padding: 50px;
 }
 
 .section-two {
     background-color: beige;
+}
+
+.section-three{
+    background-color:gray;
+    padding:100px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(romance//.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-three p {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.section-three h4{
+    text-align: center;
 }
 
 
