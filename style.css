@@ -1,15 +1,38 @@
+body{
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.section-one{
+    background-color: rgb(177, 166, 228);
+}
+
+
 .header{
-    background-color: teal;
-    margin: 0px;
-    padding: 10px;
-    border: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 10px;
+    font-size:18px;
 }
 
 .links{
     display:flex; 
     gap: 10px;  
+}
+
+.information{
+    display:flex;
+    justify-content: center;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right:200px;
+}
+
+.card{
+    align-self: center;
+    margin-right:400px;
 }
 
