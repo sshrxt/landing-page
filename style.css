@@ -1,6 +1,7 @@
 
 body{
     margin: 0px;
+    font-family: 'Single Day', cursive;
 }
 
 .section-one{
@@ -34,6 +35,10 @@ body{
     padding: 20px 30px 50px 30px;
 }
 
+.links a{
+    font-weight:750;
+}
+
 
 .links{
     display:flex; 
@@ -45,10 +50,11 @@ body{
     border-radius: 8px;
     color: white;
     background-color: grey;
-    padding: 115px;
+    padding: 120px;
     background-size: cover;
-    margin-left:90px;
-    background-image: url(leap//.gif);
+    margin-left: 10px;
+    background-image: url(./images/spideyswing.gif);
+    background-position: 40%;
     
 }
 
@@ -58,6 +64,8 @@ body{
     background-color:#007fd7;
     color:#e2e2e2;
     font-weight: 850;
+    margin-bottom: 9px;
+    font-family: 'Single Day', cursive;
 }
 
 .items img{
@@ -67,14 +75,6 @@ body{
 
 .items{
     max-width: 200px;
-}
-
-.section-two h2{
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-    margin-bottom: 10px;
-    font-size:25px;
 }
 
 .images{
@@ -88,6 +88,17 @@ body{
     background-color: #383336;
     color:#e2e2e2;
     text-align: center;
+}
+.section-two h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-size:35px;
+}
+
+.section-two p{
+    font-size: 18px;
 }
 
 .section-three{
@@ -104,7 +115,8 @@ body{
 .section-three p {
     max-width: 50%;
     margin: 0 auto;
-    font-size: 32px;
+    font-size: 40px;
+    background-position: 60%;
 }
 
 .section-three h4{
@@ -118,26 +130,31 @@ body{
     background-color: #b31b49;
     display: flex;
     justify-content: center;
+    background-image: url(./images/background.png);
+    background-size: cover;
+    background-position: 60%;
 }
 
 .container-card{
-    background-color: #007fd7;
+    background-color: #383336;
     padding: 30px;
     display:flex;
     justify-content: center;
     align-items: center;
     gap: 52px;
     border-radius: 8px;
+    color:#e2e2e2;
 
 }
 
 .footer{
     text-align: center;
     padding: 15px;
-    background-color: #0a2b4e;
+    background-color: #383336;
+    color: white;
+    font-weight: 900;
 }
 
-
-
-
-
+.left-card{
+    max-width: 300px;
+}
