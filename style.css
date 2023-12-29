@@ -4,10 +4,17 @@ body{
 }
 
 .section-one{
-    background-color: rgb(177, 166, 228);
+    background-color:#b31b49;
     display:flex;
     justify-content: center;
     margin-bottom:0px;
+    color:#e2e2e2;
+}
+
+.section-one a{
+    text-decoration: none;
+    color:#e2e2e2;
+    font-weight:900;
 }
 
 .left{
@@ -15,6 +22,7 @@ body{
     flex-direction: column;
     align-items: flex-start;
     font-size:18px;
+    max-width: 45%;
 }
 
 .right{
@@ -44,6 +52,14 @@ body{
     
 }
 
+.join{
+    padding: 10px;
+    border-radius: 8px;
+    background-color:#007fd7;
+    color:#e2e2e2;
+    font-weight: 850;
+}
+
 .items img{
     width: 90px;
     height: auto;
@@ -57,7 +73,8 @@ body{
     text-align: center;
     margin: 0;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size:25px;
 }
 
 .images{
@@ -68,7 +85,9 @@ body{
 }
 
 .section-two {
-    background-color: beige;
+    background-color: #383336;
+    color:#e2e2e2;
+    text-align: center;
 }
 
 .section-three{
@@ -76,35 +95,46 @@ body{
     padding:100px;
     display: flex;
     flex-direction: column;
-    background-image: url(romance//.gif);
+    background-image: url(./images/romance.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    color:#e2e2e2
 }
 
 .section-three p {
     max-width: 50%;
     margin: 0 auto;
+    font-size: 32px;
 }
 
 .section-three h4{
     text-align: center;
+    margin: 5px;
+    font-size: 20px;
 }
 
 .section-four{
     padding: 100px 40px;
-    background-color: antiquewhite;
+    background-color: #b31b49;
     display: flex;
     justify-content: center;
 }
 
 .container-card{
-    background-color: lightblue;
+    background-color: #007fd7;
     padding: 30px;
     display:flex;
     justify-content: center;
     align-items: center;
     gap: 52px;
+    border-radius: 8px;
 
+}
+
+.footer{
+    text-align: center;
+    padding: 15px;
+    background-color: #0a2b4e;
 }
 
 
